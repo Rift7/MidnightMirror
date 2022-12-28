@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Proxy</title>
+  <!-- Include the material design CSS styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Customize the CSS styles for the dark theme -->
+  {% if theme == 'dark' %}
+  <style>
+    body {
+      background-color: #303030;
+      color: #fff;
+    }
+  </style>
+  {% endif %}
+</head>
+<body>
+  <!-- Display the content of the target website -->
+  {{ content|safe }}
+</body>
+</html>
