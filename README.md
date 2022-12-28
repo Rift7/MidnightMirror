@@ -29,7 +29,7 @@ Open your web browser and navigate to [http://localhost:5000](http://localhost:5
 
 ## Configuration
 
-You can customize the behavior of Midnight Mirror by modifying the configuration options in the config.py file.
+You can customize the behavior of Midnight Mirror by modifying the configuration options in the MidnightMirror.py file.
 ## License
 
 Midnight Mirror is released under the MIT License.
